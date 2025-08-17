@@ -67,4 +67,4 @@ if __name__ == "__main__":
     for s in symbols:
         print(f"{s}\t{probabilities[symbols.index(s)]:.2f}\t\t{codes[s]}")
 
-    print(f"\nAverage Codeword Length: {avg_length:.4f} bits/symbol")
+    print(f"\nAverage Codeword Length: {avg_length:.4f} bits/symbol")  
